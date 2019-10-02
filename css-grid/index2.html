@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        display: grid;
+        /* grid-template-columns: 1fr 2fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+        /* grid-auto-rows: 100px; */
+        grid-auto-rows: minmax(100 auto);
+      }
+
+      .nested{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 70px;
+            gap: 1em;
+      } 
+
+      .nested>div{
+          border: 1px solid #000;
+          padding:1em;
+      }
+
+      
+
+      .wrapper>div {
+        background: #eee;
+        padding: 1em;
+      }
+      .wrapper>div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, quam!
+      </div>
+
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, numquam
+        aspernatur. Beatae ipsam sequi corrupti blanditiis asperiores a deserunt
+        perspiciatis, totam expedita, eius error similique facilis odit. Vitae
+        quibusdam repellat magni rerum tempora necessitatibus, culpa dolore
+        veniam. Repudiandae, ipsam ipsum?
+      </div>
+      <div class="nested">
+          <div>Lorem.</div>
+          <div>Lorem.</div>
+          <div>Lorem.</div>
+          <div>Lorem.</div>
+          <div>Lorem.</div>
+          <div>Lorem.</div>
+      </div>
+      <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, quam!
+      </div>
+
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis,
+        voluptatem.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur,
+        tenetur?
+      </div>
+    </div>
+  </body>
+</html>
