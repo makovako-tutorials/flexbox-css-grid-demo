@@ -21,3 +21,9 @@ Build the website mobile first and arrange it with grid for bigger screens.
 [video](https://www.youtube.com/watch?v=Wm6CUkswsNw)
 
 It's quite old video (2016), it doesn't use flexbox nor grid, but nice to see how it used to work.
+
+## Responsive grid css
+
+[video](https://www.youtube.com/watch?v=moBhzSC455o)
+
+run ```npm i @fortawesome/fontawesome-free``` for icons
