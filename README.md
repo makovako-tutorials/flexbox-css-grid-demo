@@ -27,3 +27,7 @@ It's quite old video (2016), it doesn't use flexbox nor grid, but nice to see ho
 [video](https://www.youtube.com/watch?v=moBhzSC455o)
 
 run ```npm i @fortawesome/fontawesome-free``` for icons
+
+## CSS animations
+
+[video](https://www.youtube.com/watch?v=zHUpx90NerM)
