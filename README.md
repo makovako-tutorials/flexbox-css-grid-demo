@@ -1,6 +1,6 @@
 # Intro
 
-This project was created after following some tutorials on flexbox and grid, and some other tutorials on html and css.
+This project was created after following some tutorials on flexbox and grid, and some other tutorials (from [channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA?igno=re) Traversy Media) on html and css.
 
 ## Flexbox
 
@@ -39,3 +39,7 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 ## Mobile first responsive form
 
 [video](https://www.youtube.com/watch?v=Sb5qOa3R4hY)
+
+## Pure css hamburger menu
+
+[video](https://www.youtube.com/watch?v=DZg6UfS5zYg)
