@@ -34,4 +34,8 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 
 ## Responsive side menu
 
-[video](https://www.youtube.com/watch?v=wpGNFGqNfdU&disableadblock=1)
+[video](https://www.youtube.com/watch?v=wpGNFGqNfdU)
+
+## Mobile first responsive form
+
+[video](https://www.youtube.com/watch?v=Sb5qOa3R4hY)
