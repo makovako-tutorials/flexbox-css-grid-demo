@@ -1,6 +1,6 @@
 # Intro
 
-This project was created after following some tutorials on flexbox and grid.
+This project was created after following some tutorials on flexbox and grid, and some other tutorials on html and css.
 
 ## Flexbox
 
@@ -31,3 +31,7 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 ## CSS animations
 
 [video](https://www.youtube.com/watch?v=zHUpx90NerM)
+
+## Responsive side menu
+
+[video](https://www.youtube.com/watch?v=wpGNFGqNfdU&disableadblock=1)
