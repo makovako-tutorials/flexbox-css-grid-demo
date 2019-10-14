@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #999999;
+}
+
+#box {
+  position: absolute;
+  display: grid;
+  top: 0px;
+  left: 0px;
+  grid-template-areas: "top-left up top-right" "left center right" "bottom-left down bottom-right";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  background: #777;
+  border-radius: 10px;
+}
+
+.button {
+  position: relative;
+  border: none;
+  background: #333333;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+#input-box {
+    display: none;
+    flex-direction: column;
+}
+
+#input-box #input-value{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.filler {
+    background: inherit;
+}
+
+#top-left {
+grid-area: top-left;
+}
+
+#top-right {
+grid-area: top-right
+}
+
+#bottom-left{
+grid-area: bottom-left
+}
+
+#bottom-right{
+grid-area: bottom-right
+}
+
+#center{
+    grid-area: center;
+}
+
+#up {
+  grid-area: up;
+}
+
+#down {
+  grid-area: down;
+}
+
+#left {
+  grid-area: left;
+}
+
+#right {
+  grid-area: right;
+}

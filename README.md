@@ -47,3 +47,9 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 ## Mobile first resposive site
 
 [video](https://www.youtube.com/watch?v=XsEnj-1hG2o&disableadblock=1)
+
+## Custom move project
+
+Some small project idea to move elements on canvas by clicking buttons or you can also use arrow keys.
+
+You can change speed of movement, press space, type speed (how much pixels should it move) a hit enter.
