@@ -53,3 +53,7 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 Some small project idea to move elements on canvas by clicking buttons or you can also use arrow keys.
 
 You can change speed of movement, press space, type speed (how much pixels should it move) a hit enter.
+
+## Parallax example
+
+[video](https://www.youtube.com/watch?v=JttTcnidSdQ)

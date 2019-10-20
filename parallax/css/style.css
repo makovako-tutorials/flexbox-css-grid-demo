@@ -1,0 +1,82 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666666;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
+    for scrolling parallax add background attachemnet 
+    fixed = parallax
+    scroll = normal (for mobile devices)
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("https://images.pexels.com/photos/461832/pexels-photo-461832.jpeg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg");
+  min-height: 100%;
+}
+
+.pimg3 {
+  background-image: url("https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg");
+  min-height: 100%;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #111;
+    color:#fff;
+    padding: 1.3rem;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+@media(max-width: 568px) {
+    .pimg1, .pimg2, .pimg3 {
+        background-attachment: scroll;
+    }
+}
