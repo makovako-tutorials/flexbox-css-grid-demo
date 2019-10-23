@@ -46,7 +46,7 @@ run ```npm i @fortawesome/fontawesome-free``` for icons
 
 ## Mobile first resposive site
 
-[video](https://www.youtube.com/watch?v=XsEnj-1hG2o&disableadblock=1)
+[video](https://www.youtube.com/watch?v=XsEnj-1hG2o)
 
 ## Custom move project
 
@@ -57,3 +57,7 @@ You can change speed of movement, press space, type speed (how much pixels shoul
 ## Parallax example
 
 [video](https://www.youtube.com/watch?v=JttTcnidSdQ)
+
+## Circular progressbar
+
+[video](https://www.youtube.com/watch?v=Ft73g5Kyknw)
