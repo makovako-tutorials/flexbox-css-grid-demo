@@ -61,3 +61,9 @@ You can change speed of movement, press space, type speed (how much pixels shoul
 ## Circular progressbar
 
 [video](https://www.youtube.com/watch?v=Ft73g5Kyknw)
+
+## CSS grid wes bos
+
+[playlist](https://www.youtube.com/playlist?list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG)
+
+[github](https://github.com/wesbos/css-grid)
