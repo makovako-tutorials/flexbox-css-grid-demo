@@ -67,3 +67,7 @@ You can change speed of movement, press space, type speed (how much pixels shoul
 [playlist](https://www.youtube.com/playlist?list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG)
 
 [github](https://github.com/wesbos/css-grid)
+
+## Price compare showcase
+
+[video](https://www.youtube.com/watch?v=M_bhZEY6_kM)
